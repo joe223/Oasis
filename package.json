@@ -10,7 +10,8 @@
 		"build:theme": "gulp build:theme",
 		"build": "cross-env ENV=prod gulp build",
 		"publish": "npm run build && lerna publish",
-		"test:unit": "jest"
+		"test:unit": "jest",
+		"coverage": "jest --coverage"
 	},
 	"devDependencies": {
 		"@vue/test-utils": "^1.0.0-beta.19",
