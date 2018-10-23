@@ -1,0 +1,14 @@
+{
+  "name": "@oasis-ui/dropdown",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "oasis",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@oasis-ui/popup": "^0.1.0"
+  }
+}

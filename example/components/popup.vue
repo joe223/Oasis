@@ -22,6 +22,12 @@
 		>
 			show Popup!
 		</Button>
+		<Dropdown>
+			<Button @click="abc">
+				Dropdown
+			</Button>
+			<button @click="abc">1231</button>
+		</Dropdown>
 	:::
 
 	## API
@@ -35,5 +41,9 @@
 </template>
 
 <script>
-	export default {}
+	export default {
+		methods: {
+			abc () {}
+		}
+	}
 </script>
