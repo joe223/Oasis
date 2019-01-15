@@ -30,9 +30,6 @@ module.exports = merge(base, {
 				NODE_ENV: '"production"'
 			}
 		}),
-		new webpack.optimize.CommonsChunkPlugin({
-			name: 'vendor'
-		}),
 		new UglifyJSPlugin()
 	]
 })
